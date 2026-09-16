@@ -12,7 +12,7 @@ public:
     }
     friend void compareBalance(const BankAccount &a1, const BankAccount &a2);
 };
-void compareBalance(const BankAccount &a1, const BankAccount &a2) {
+void compareBalance(const BankAccount &a1, const BankAccount &a2){
     if (a1.balance>a2.balance){
         cout<<"Account Holder with Higher Balance:"<<endl;
         cout<<"Account Number: "<<a1.accountNo<<endl;
